@@ -1,0 +1,109 @@
+/* Place all the styles related to the inicial controller here.
+   They will automatically be included in application.css.
+   You can use Sass (SCSS) here: http://sass-lang.com/
+*/
+.pass {
+    background: url('pass.png') left top no-repeat; /* http://www.iconarchive.com/show/oxygen-icons-by-oxygen-icons.org.html */
+    background-color: rgb(238,238,238) !important;
+}
+.fail {
+    background: url('fail.png') left top no-repeat;
+    background-color: rgb(255,200,200) !important;
+}
+.att {
+    background: url('att.png') left top no-repeat;
+    background-color: rgb(255,255,200) !important;
+}
+.corr {
+    background: url('corr.png') left top no-repeat;
+    background-color: rgb(147,235,173) !important;
+}
+
+span.obs.info {
+    font-size: small;
+    font-style: italic;
+    font-weight: lighter;
+    background: url('info16.png') left no-repeat;
+    padding: 3px;
+    padding-left: 22px;
+    margin: 0 0 0 26px !important;
+    border: 1px dotted blue;
+}
+
+
+ul li p {
+    padding-left: 22px !important;
+    margin: 0 !important;
+}
+
+.override-ui-screen-hidden {
+    display:block !important;
+}
+.dont-truncate {
+ white-space: normal;
+ }
+
+.truncate {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+li[data-role=list-divider] {
+    min-height: 30px;
+}
+
+.myselected
+{
+	border: 3px solid rgb(111, 111, 111);
+	background-color: rgb(200, 214, 255);
+	font-weight: bold;
+	color: 	#111 /*{e-bdown-color}*/;
+	/*text-shadow: 0 *//*{e-bdown-shadow-x}*//* 1px *//*{e-bdown-shadow-y}*//* 0 *//*{e-bdown-shadow-radius}*//* 	#fff *//*{e-bdown-shadow-color}*//*;*/
+}
+
+.ui-li-desc {
+    font-size: 16px !important;
+}
+
+/* nonSelectable*/
+ul li,  .ui-li-desc, a {
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-user-drag: none;
+}
+
+/* nonDraggable*/
+a {
+    -webkit-user-drag: none; /* this will work for QtWebKit in future */
+}
+div#set-status .ui-controlgroup-controls {
+    width: 100%;
+}
+div#set-status .ui-controlgroup {
+    margin: 0.5em;
+}
+div#set-status .ui-btn-inner, div#set-status p {
+    font-weight: lighter;
+    font-size: small;
+}
+div#set-status a.action-links .ui-btn-inner {
+    padding: 5px 15px;
+}
+
+/*#set-status-popup {
+    right: 0 !important;
+    left: auto !important;
+}*/
+#set-status {
+    max-width: 415px;
+    border: 1px solid #000;
+    border-right: none;
+    background: rgba(0,0,0,0.75);
+    padding: 0.2em;
+}

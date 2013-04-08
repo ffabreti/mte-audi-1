@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails audimobile: test" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="a4352284-36bf-4be8-857b-b81c100c33f4">
+    <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+    <jdbc-url>jdbc:mysql://127.0.0.1/audimobile_test</jdbc-url>
+    <user-name>root</user-name>
+    <libraries>
+      <library>
+        <url>file://$USER_HOME$/.RubyMine40/config/jdbc-drivers/mysql-connector-license.txt</url>
+      </library>
+      <library>
+        <url>jar://$USER_HOME$/.RubyMine40/config/jdbc-drivers/mysql-connector-java-5.1.18-bin.jar!/</url>
+      </library>
+    </libraries>
+  </data-source>
+  <data-source source="LOCAL" name="Rails audimobile: production" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="d4f5fe17-09fc-403e-bda7-dc4003b734ac">
+    <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+    <jdbc-url>jdbc:mysql://127.0.0.1/audimobile_production</jdbc-url>
+    <user-name>root</user-name>
+    <libraries>
+      <library>
+        <url>file://$USER_HOME$/.RubyMine40/config/jdbc-drivers/mysql-connector-license.txt</url>
+      </library>
+      <library>
+        <url>jar://$USER_HOME$/.RubyMine40/config/jdbc-drivers/mysql-connector-java-5.1.18-bin.jar!/</url>
+      </library>
+    </libraries>
+  </data-source>
+  <data-source source="LOCAL" name="Rails audimobile: development" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="e02e8047-6b8d-4de0-976a-ebfe7458ce35">
+    <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+    <jdbc-url>jdbc:mysql://127.0.0.1/audimobile_development</jdbc-url>
+    <user-name>root</user-name>
+    <libraries>
+      <library>
+        <url>file://$USER_HOME$/.RubyMine40/config/jdbc-drivers/mysql-connector-license.txt</url>
+      </library>
+      <library>
+        <url>jar://$USER_HOME$/.RubyMine40/config/jdbc-drivers/mysql-connector-java-5.1.18-bin.jar!/</url>
+      </library>
+    </libraries>
+  </data-source>
+</component>
